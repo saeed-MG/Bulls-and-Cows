@@ -1,7 +1,6 @@
 package bullscows;
 public class BullsCows {
-
-    private static void bullsAndCows() {
+    public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Input the length of the secret code: ");
         long length = 0;
